@@ -1,0 +1,8 @@
+#Display{
+  width: 50vw;
+  display: block;
+}
+
+#ScannerContainer{
+  padding: 5vh 10vw;
+}

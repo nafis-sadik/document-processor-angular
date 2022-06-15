@@ -1,0 +1,29 @@
+#Home {
+  background-image: url('http://localhost:4200/assets/pexels-miguel-á-padriñán-3785932.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+}
+
+.overlay{
+  position: absolute;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  opacity: .8;
+}
+
+#text-content{
+  text-align: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  margin-right: 50px;
+}
+
+#text-content h1{
+  font-size: 50px;
+}

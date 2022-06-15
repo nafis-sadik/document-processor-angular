@@ -1,0 +1,8 @@
+<section id="ScannerContainer">
+  <h1>Scanner</h1>
+  <img id="Display" [src]="url" alt="">
+  <input mat-raised-button type="file" ng-model="image" (change)="loadImage($event)">
+  <button mat-raised-button color="primary" (click)="scanImage()">
+    <mat-icon>autorenew</mat-icon>
+  </button>
+</section>
