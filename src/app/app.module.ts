@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
 import { AppRoutingModule } from './app-routing.module';
 
 
@@ -21,7 +22,8 @@ import { AppRoutingModule } from './app-routing.module';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

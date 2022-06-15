@@ -21,8 +21,9 @@
     margin: 0;
   }
 
-  .spacer {
-    flex: 1;
+  .toolbar{
+    position: absolute;
+    z-index: 10;
   }
 
   .toolbar img {
@@ -44,15 +45,6 @@
     opacity: 0.8;
   }
 
-  .content {
-    display: flex;
-    margin: 82px auto 32px;
-    padding: 0 16px;
-    max-width: 960px;
-    flex-direction: column;
-    align-items: center;
-  }
-
   svg.material-icons {
     height: 24px;
     width: auto;
@@ -64,6 +56,15 @@
 
   .card svg.material-icons path {
     fill: #888;
+  }
+
+  .content {
+    display: flex;
+    margin: 82px 0;
+    padding: 0 16px;
+    background-color: rebeccapurple;
+    flex-direction: column;
+    align-items: center;
   }
 
   .card-container {
@@ -280,6 +281,27 @@
   }
 
 
-.example-spacer {
+.nvabar-spacer {
   flex: 1 1 auto;
+}
+
+.sidenav-container {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.example-sidenav {
+  padding: 20px;
+}
+
+header{
+  position: relative;
+}
+
+.sidenav-buttons{
+  display: block;
+  border: 1px solid black;
+  margin-bottom: 25px;
 }
